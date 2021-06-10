@@ -3,6 +3,10 @@
 Created on Thu Jun 10 22:43:52 2021
 
 @author: Saptarshi
+
+Question - 
+
+In a given array find the nearest greater element of every element in the array to the left of it. If none is greater return -1.
 """
 arr = list(map(int,input().split()))
 n = len(arr)
