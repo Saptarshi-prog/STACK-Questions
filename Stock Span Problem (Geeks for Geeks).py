@@ -3,6 +3,11 @@
 Created on Fri Jun 11 23:48:35 2021
 
 @author: Saptarshi
+
+Question - The stock span problem is a financial problem where we have a series of n daily price quotes for a stock and we need to calculate the span of stock’s price for
+all n days. 
+The span Si of the stock’s price on a given day i is defined as the maximum number of consecutive days just before the given day, for which the price of the stock on the
+current day is less than or equal to its price on the given day.
 """
 
 arr = list(map(int,input().split()))
@@ -32,4 +37,6 @@ for i in range(len(ans)):
     ans[i] = i - ans[i]
 
 print(ans)
+
+#O(n) representation by Stack.
     
